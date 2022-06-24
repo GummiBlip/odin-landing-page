@@ -1,12 +1,11 @@
 * {
-
-}
-html {
-
+  font-family: ;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
-
+  background-color: #1F2937;
 }
 
 .logo {
@@ -14,19 +13,30 @@ html {
   color: #F9FAF8;
 }
 
-.header-links {
+.header-links-container {
+  
+}
 
+.header-links-container ul {
+  font-size: 18px;
+  color: #E5E7EB;
+  list-style-type: none;
 }
 
 .hero-container {
-
+  background-color: #1F2937;
 }
 
 .hero-main {
+  font-size: 48px;
+  font-weight: bolder;
 
 }
 
 .hero-sub {
+  font-size: 18px;
+  color: #E5E7EB;
+  list-style-type: none;
 
 }
 
@@ -35,10 +45,13 @@ html {
 }
 
 .information-container {
-
+  background-color: white;
 }
 
 .info-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
 
 }
 
@@ -51,25 +64,34 @@ html {
 }
 
 .quote-container {
-
+  background-color: #E5E7EB;
+  color: #1F2937;
 }
 
 .quote-text {
-
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: 1
 }
 
 .quote-author {
+  font-size: 36px;
+  font-weight: 500;
+}
 
+.action-call-container {
+  background-color: white;
 }
 
 .action-call {
-
+  background-color: #3882F6;
 }
 
 .sign-up {
-
+  background-color: #3882F6;
 }
 
 .footer {
-
+  background-color: #1F2937;
 }
