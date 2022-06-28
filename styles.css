@@ -11,11 +11,26 @@ body {
   flex-direction: column;
 }
 
-.header {
-  padding-top: 12px;
+.hero {
   background-color: #1F2937;
   display: flex;
-  justify-content: space-around;
+  padding: 1em 0em 8em 0em;
+  gap: 2em;
+}
+
+.left, .right {
+  display: flex;
+  flex-direction: column;
+  gap: 6em;
+  flex: 1 1 0;
+}
+.left {
+  margin-left: 15%;
+  align-items: flex-start;
+}
+.right {
+  margin-right: 15%;
+  align-items: flex-end;
 }
 
 .logo {
@@ -23,11 +38,7 @@ body {
   color: #F9FAF8;
 }
 
-.header-links-container {
-  
-}
-
-.header-links-container ul {
+.nav-links-container ul {
   font-size: 18px;
   color: #E5E7EB;
   list-style-type: none;
@@ -35,19 +46,11 @@ body {
   gap: 16px;
 }
 
-.hero-container {
-  background-color: #1F2937;
-  padding: 10%;
-  display: flex;
-  gap: 32px;
-}
-
 .hero-text {
   display: flex;
   flex-direction: column;
   gap: 12px;
   flex: 1 1 0;
-  align-items: stretch;
 }
 
 .hero-main {
@@ -60,16 +63,16 @@ body {
 .hero-sub {
   font-size: 18px;
   color: #E5E7EB;
-  list-style-type: none;
 }
 
 .hero-image-container {
-  flex: 1 1 0;
   display: flex;
+  flex: 1 1 0;
   justify-content: center;
   align-items: center;
   color: white;
   background-color: grey;
+  width: 100%;
 }
 
 .sign-up {
