@@ -84,7 +84,7 @@ body {
   border: 0px;
 }
 
-.hero-sign-up {
+.hero .sign-up {
   align-self: flex-start;
 }
 
@@ -151,10 +151,40 @@ body {
 
 .action-call-container {
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 15%;
 }
 
-.action-call {
+.action-call-box {
   background-color: #3882F6;
+  flex: 1 1 auto;
+  border-radius: 1em;
+  display: flex;
+  justify-content: space-around;
+  padding: 4em;
+}
+
+.action-call-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.action-call-text h3 {
+  font-weight: 900;
+  font-size: 24px;
+  color:#F9FAF8;
+}
+
+.action-call-text p {
+  font-weight: 500;
+  font-size: 18px;
+  color:#E5E7EB;
+}
+
+.action-call-box .sign-up {
+  border: 2px solid white;
 }
 
 .footer {
